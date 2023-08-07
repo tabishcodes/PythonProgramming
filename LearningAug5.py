@@ -79,6 +79,14 @@ print(abs(-5.5)) #it make every value +ve
 print(round(5.49)) #it round-off (if its below 0.50 then it's 0 & if it's equal to or more then 0.50 the its 1)
 print(round(5.49, 1)) #now in the second parameter we can set at what decimal point we need to round off.
 
-#ENUMS -readable names that are bounded to constant values.
+#ENUMS(Enumeration) -readable names that are bounded to constant values.
+from enum import Enum
 
+class State(Enum):
+    INACTIVE = 0 
+    ACTIVE = 1
 
+print(State.ACTIVE)
+print(State.ACTIVE.value)
+print(State(1))
+print(State['ACTIVE'])
