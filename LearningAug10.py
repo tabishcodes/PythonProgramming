@@ -48,4 +48,4 @@ newnames = names + ("Haris", "Elena") #If we want to add new items in a tuple th
 print(newnames)
 
 #Dictionaries
-dog = {"name": "Tommy"} #syntax- NameOfDict = {"key": "Its value"}
+dog = {"name": "Tommy"} #syntax- NameOfDict = {"key": "Its value"} it can contain multiple key value pairs
