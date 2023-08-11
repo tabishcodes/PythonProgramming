@@ -20,7 +20,7 @@ print("outside if statement")
 #LISTS - its is used to group multiple values of multiple types
 studentName = ["Alfiya", 1 , "Noman", True] #list of values
 
-#Checking the value in List
+#Checking the value in List                
 print("Noman" in studentName) #in is used the check the value is in the list or not
 print(studentName[1]) #used to display the values in the list with there indexes
 
@@ -60,5 +60,3 @@ print(studentName) #prints the whole list
 #For adding multiple items in between the list we need slices
 studentName[1:2] = ["Test1", "Test2", "Test3"]
 print(studentName) #prints the whole list 
-
-#List Sorting
