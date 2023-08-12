@@ -46,6 +46,3 @@ print(sorted(names, key=str.lower)) #as it sorts the tuple but the items in the 
 
 newnames = names + ("Haris", "Elena") #If we want to add new items in a tuple then we have to make a new tuple because wwe can't modify the orignal one
 print(newnames)
-
-#Dictionaries
-dog = {"name": "Tommy"} #syntax- NameOfDict = {"key": "Its value"} it can contain multiple key value pairs
