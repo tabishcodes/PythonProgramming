@@ -39,28 +39,23 @@ def Hello():
 Hello()
 
 #Func with a parameter and its default value
-def Hello(name = "my friend" , age = "Let me guess!"): 
-    print("Hello! " + name )
-Hello("Rohan")
+def Hello(name = "My Friend", age = "21" ): #parameters are passed by reference
+    print("Hello! " + name + " is " + str(age) + " years old.")
+
+Hello("Rohan", "20") 
 Hello("Mohan")
 Hello()
 
+#Return Statement
+def Greet(stx):
+    print("Hello, " + stx)
+    return stx #common way to ending any function
 
+Greet("Good Morning")
 
+def Greet(stx):
+    if not stx:
+        return #it can also work as an if else statement if used
+    print("Hello, " + stx)
 
-
-
-
-
-
-#VARIABLE SCOPES
-
-#NESTED FUNCTIONS
-
-#CLOSURES
-
-#OBJECTS
-
-#LOOPS
-
-#BREAK CONTINUE
+Greet("Good Day")
