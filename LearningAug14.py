@@ -119,3 +119,6 @@ for item in items:
      if item == 2:
           break #its altogether break the iteration in all the loop 
      print(item)
+
+def bark():
+     print("Woof!")
