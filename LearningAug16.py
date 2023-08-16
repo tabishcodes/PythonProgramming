@@ -1,0 +1,23 @@
+#ARGUMENTS OF COMMAND LINE
+#running a program with Terminal Code
+#Syntax: python FileName.py
+
+
+
+
+
+#LAMBDA FUNCTIONS
+
+#MAP, FILTER & REDUCE
+
+#RECURSION
+
+#DECORATORS
+
+#DOCSTRINGS
+
+#ANNOTAIONS
+
+#EXCEPTIONS
+
+#WITH
