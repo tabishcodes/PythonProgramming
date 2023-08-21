@@ -57,4 +57,3 @@ roger =  Dog('Roger', 6)
 tommy = Dog('Tommy', 3)
 
 print(roger < tommy)
-
