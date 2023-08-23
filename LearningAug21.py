@@ -3,10 +3,6 @@
 #BLACKJACK
 import random
 
-class Card:
-    def __init__(self):
-        self.suits = "hearts"
-
 class Deck:
     def __init__(self):
         self.cards = []
@@ -48,4 +44,3 @@ print(deck1.cards)
 deck2 = Deck()
 deck2 = Deck()
 print(deck2.cards)
-
